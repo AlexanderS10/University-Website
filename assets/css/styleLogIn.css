@@ -1,0 +1,85 @@
+input[type=text], input[type=password]{ /*This is for the input*/
+    width: 100%;
+    padding: 10px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*Buttons styles*/
+button{
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+}
+
+label{
+    font-size: 14px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+/*cancel button*/
+.Cancel_button{
+    width: auto;
+    padding: 14px 18px;
+    background-color: #5D0C1D;
+}
+
+.Login_send{
+    background-color:#03ccac;
+    padding: 12px;
+}
+
+/*Center the image and position the close button*/
+.image_container{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.Login_image{
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+.modal{
+    font-family: Arial, Helvetica, sans-serif;
+   position: relative; /*stay in place*/
+   left:0px;
+   top:0px;
+   overflow:auto;/*This allows scroll when needed*/
+}
+
+.modal_content{   
+    position: absolute;
+    background-color: #fefefe;
+    top: 15%;
+    left: 40%;
+    border:1px solid #888;
+    width: 25%;
+}
+.image_background{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
+
+.containerL{
+    padding: 16px;
+}
+
+.psw_check{
+    display: none;
+    text-align: center;
+    color: red;
+    margin: 0%;
+}
