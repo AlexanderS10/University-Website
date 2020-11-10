@@ -1,0 +1,127 @@
+
+body, html{
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.Logo{
+    width: 270px;
+    height: 50px;
+}
+.MainHeader{
+    background-color: #5D0C1D;
+    width: 100%;
+}
+.SPortal_header, .logo{
+    display: inline-block; 
+    width: 49%;
+    padding: 10px;
+    height: 80px;
+}
+
+.SPortal_header{
+    text-align: right;
+}
+.name_wrapper{
+    text-align: left;
+
+}
+ul{
+    
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+li{
+    color: white;
+    display: inline;
+    float:right;
+    padding:8px;
+}
+.name_wrapper{
+    background-color: #5D0C1D;
+    border: 10px double rgb(255, 255, 255);
+    text-align: left
+}
+.student_name, .student_icon{ 
+    color: white;
+    display: inline-block;
+}
+.student_icon{
+margin: 0px 10px 0px 20px;
+}
+.icons{
+    padding:30px;
+    text-align: center;
+    width: 100%;
+    padding: 2;
+}
+.icon-round-border {
+    border: 10px double #5D0C1D;
+    color: #7293ad;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 3px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.icon-round-border:hover {
+    color: #fff;
+    border: 10px double #fff;
+    background-color: #790404;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.register, .hold, .academics{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+.classes_wrapper{
+    background-color: #5D0C1D;
+    width: 50%;
+    color: white;
+    border-radius: 2%;
+    padding-bottom: 20px;
+}
+.classes_wrapper_title{
+    background-color: #24040b;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#my_classes{
+    margin:15px 15px 0px 10px;
+    padding-left: 10px;
+}
+#course_title{
+    
+    color: white;
+}
+
+h5{
+    height: 2px;;
+    padding:0px;
+    margin: 0px;
+}
+h4{
+    height: 3px;
+    padding: 0px;
+    margin:0px;
+}
+td{
+    font-weight: 900;
+}
