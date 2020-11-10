@@ -1,0 +1,31 @@
+
+body, html{
+    margin:0;
+    padding:0;
+    color: white;
+}
+.Logo{
+    width: 270px;
+    height: 50px;
+}
+.MainHeader{
+    background-color: blue;
+    border: 1px solid black;
+}
+.SPortal_header{
+    background-color: #5D0C1D;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+ul{
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    float:right;
+    padding:8px;
+}
