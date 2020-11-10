@@ -11,21 +11,24 @@
 </head>
 <body>
     <div class="MainHeader">
-        <div class="SPortal_header">
-            <ul>
-                <li><a>| Sign Out</a></li>
-                <li>| Other</li>
-                <li>Master Schedule</li>
-            </ul>
+        <div class="logo">
             <a href="/index.html"><img class="Logo" src="/assets/img/Logo/BurberryLogo.png"/></a>
-            
+        </div>
+        <div class="SPortal_header">
+            <div class="menu">
+                <ul>
+                    <li><a>| Sign Out</a></li>
+                    <li>| Other</li>
+                    <li>Master Schedule</li>
+                </ul>
+            </div>
         </div>
         <div class="name_wrapper">
             <div class="student_icon">
                 <i class="fa fa-user fa-2x"></i>
             </div>
             <div class="student_name">
-                <h2>Freddy Sanchez</h2>
+                <h2>User's Name</h2>
             </div>
             
         </div>
@@ -44,24 +47,38 @@
             <h4>Academics</h4>
         </div>
     </div>
-    <div class="my_classes">
-        <table id="classes">
-            <tr id="course_title">
-                <h4>Cal & Analytic Geometry</h4>
-            </tr>
-            <tr id="course_info">
-                <h5>MA 2330/ Section 001</h5>
-            </tr>
-            <tr id="time_frame">
-                <h5>August 31, 2020 - December 22, 2020</h5>
-            </tr>
-            <tr id="course_time">
-                <h5>Tue,Thu 01:00PM - 02:30PM</h5>
-            </tr>
-            <tr>
-                
-            </tr>
-        </table>
+    <div class="classes_wrapper">
+        <div class="classes_wrapper_title"><h4>COURSES I AM TAKING</h4></div>
+        <div id="my_classes">
+            <table class="classes">
+                <tr id="course_title">
+                    <td><h4>Cal & Analytic Geometry</h4></td>
+                </tr>
+                <tr id="course_info">
+                    <td><h5>MA 2330/ Section 001</h5></td>
+                </tr>
+                <tr id="time_frame">
+                    <td><h5>August 31, 2020 - December 22, 2020</h5></td>
+                </tr>
+                <tr id="course_time">
+                    <td><h5>Tue,Thu 01:00PM - 02:30PM</h5></td>
+                </tr>
+                <tr id="course_setting">
+                    <td><h5>REMOTE</h5></td>
+                </tr>
+            </table>
+        </div>
     </div>
+    <button onclick="addTable()">Add</button>
+    <script src="/assets/js/student_portal.js"></script>
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Flexslider Scripts -->
+    <script src="assets/js/jquery.flexslider.js"></script>
+    <!--  Scrolling Reveal Script -->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!--  Scroll Scripts -->
+    <script src="assets/js/jquery.easing.min.js"></script>
 </body>
 </html>

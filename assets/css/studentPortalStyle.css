@@ -13,20 +13,22 @@ body, html{
     height: 50px;
 }
 .MainHeader{
-    background-color: rgb(253, 253, 253);
-    border: 1px solid black;
-    
-}
-.SPortal_header{
     background-color: #5D0C1D;
-    padding: 10px;
-    margin: 0;
     width: 100%;
+}
+.SPortal_header, .logo{
+    display: inline-block; 
+    width: 49%;
+    padding: 10px;
     height: 80px;
+}
+
+.SPortal_header{
+    text-align: right;
 }
 .name_wrapper{
     text-align: left;
-    
+
 }
 ul{
     
@@ -84,7 +86,42 @@ margin: 0px 10px 0px 20px;
     transition: 0.3s;
 }
 .register, .hold, .academics{
-    color: black;
+    color: rgb(0, 0, 0);
     display: inline-block;
     padding: 0px 30px 0px 30px;
+}
+.classes_wrapper{
+    background-color: #5D0C1D;
+    width: 50%;
+    color: white;
+    border-radius: 2%;
+    padding-bottom: 20px;
+}
+.classes_wrapper_title{
+    background-color: #24040b;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#my_classes{
+    margin:15px 15px 0px 10px;
+    padding-left: 10px;
+}
+#course_title{
+    
+    color: white;
+}
+
+h5{
+    height: 2px;;
+    padding:0px;
+    margin: 0px;
+}
+h4{
+    height: 3px;
+    padding: 0px;
+    margin:0px;
+}
+td{
+    font-weight: 900;
 }
