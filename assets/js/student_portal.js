@@ -7,11 +7,27 @@ let courseSetting="REMOTE";
 
 function addTable(){
     $('#my_classes').append('<table class="classes">' 
-    +'<tr id="course_title"><td> <h4>'+courseName+'</h4></td></tr>'
-    +'<tr id="course_info"><td><h5>'+courseInfo+' / '+courseSection+'</h5></td></tr>'
-    +'<tr id=time_frame><td><h5>'+courseTimeFrame+'</h5></td></tr>'
-    +'<tr id=course_time><td><h5>'+courseTime+'</h5></td></tr>'
-    +'<tr id=course_setting><td><h5>'+courseSetting+'</h5></td></tr>'
+    +'<tr id="course_title"><td>'+courseName+'</td></tr>'
+    +'<tr id="course_info"><td>'+courseInfo+' / '+courseSection+'</td></tr>'
+    +'<tr id=time_frame><td>'+courseTimeFrame+'</td></tr>'
+    +'<tr id=course_time><td>'+courseTime+'</td></tr>'
+    +'<tr id=course_setting><td>'+courseSetting+'</td></tr>'
     +'</table>');
+}
 
+let slideIndex=0;
+showSlides();
+
+function showSlides(){
+    let i;
+    let slides = $(".my_slides");
+    for (i=0; i<slides.length; i++){
+        slides[i].style.display="none";
+    }
+    slideIndex++;
+    if(slideIndex>slides.length){
+        slideIndex=1;
+    }
+    slides[slideIndex-1].style.display="block";
+    setTimeout(showSlides, 3000);
 }
