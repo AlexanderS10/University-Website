@@ -27,7 +27,6 @@
     height: 80px;
 }
 
-
 .name_wrapper{
     text-align: left;
 
@@ -97,7 +96,7 @@ margin: 0px 10px 0px 20px;
     color: white;
     border-radius: 2%;
     padding-bottom: 20px;
-    margin-left: 30px;
+    
 }
 .classes_wrapper_title{
     background-color: #24040b;
@@ -109,7 +108,7 @@ margin: 0px 10px 0px 20px;
 #my_classes{
     margin:15px 15px 0px 10px;
     padding-left: 10px;
-    padding-right: 70px;
+    padding-right: 150px;
 }
 #course_title{
     color: white;
@@ -130,19 +129,24 @@ h4{
 #course_title{
     font-weight: 900;
 }
+
+/*This is the classes and slides block*/
 .first_row{
+    
     background-color: #5D0C1D;
     text-align: left;
     width: 100%;
     vertical-align: middle;
 }
 .school_images{
-    margin-top: 0px;
+    margin-top: 50px;
     text-align: center;
-    width: 400px;
+    vertical-align: middle;
+    width: 500px;
     height: 300px;
-    background-color: blue;
+    background-color: #c9a4ac;
     border-radius: 2%;
+    margin-left: 50px;
 }
 .my_slides{
     display:none;
@@ -164,12 +168,12 @@ h4{
     to {opacity: 1}
   }
 .school_images img{
-    margin-left: 0%;
-    margin-top: 50px;
+    margin-top: 30px;
     max-width: 400px;
-    max-height: 200px;
+    max-height: 250px;
 }
 .classes_wrapper, .school_images{
     display: inline-block;
     vertical-align: middle;
+    margin: 50px;
 }
