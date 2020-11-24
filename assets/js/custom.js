@@ -56,7 +56,6 @@
 
     }
    
-   
     $(document).ready(function () {
         mainApp.scrollAnimation_fun();
         mainApp.scroll_fun();
