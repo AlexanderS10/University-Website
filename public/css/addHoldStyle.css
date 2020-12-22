@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Logo {
+    width: 270px;
+    height: 50px;
+}
+
+.MainHeader {
+    background-color: #601324;
+    width: 100%;
+    padding: 20px;
+}
+
+.SPortal_header,
+.logo {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.name_wrapper {
+    text-align: left;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #b87c7c, #601324);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding-top: 20px;
+    width: 100%;
+    color: black;
+}
+
+.form_holder {
+    display: inline-block;
+    margin: auto;
+}
+
+.input_field {
+    padding: 10px;
+}
+
+.btn_wrapper {
+    padding: 10px;
+}
+
+.title_form {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.form_holder {
+    width: 50%;
+    display: inline-block;
+}
+
+.form_wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-block {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #ccb38d;
+    padding: 5px;
+    border-radius: 5px;
+}

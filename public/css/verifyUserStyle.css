@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Logo {
+    width: 270px;
+    height: 50px;
+}
+
+.MainHeader {
+    background-color: #601324;
+    width: 100%;
+    padding: 20px;
+}
+
+.SPortal_header,
+.logo {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.logo {
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+li {
+    color: white;
+    display: inline;
+    float: right;
+    padding: 8px;
+}
+
+.password_container {
+    padding-top: 30px;
+}
+
+.btn {
+    color: white;
+    background-color: #601324;
+}

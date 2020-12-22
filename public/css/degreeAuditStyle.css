@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Logo {
+    width: 270px;
+    height: 50px;
+}
+
+.MainHeader {
+    background-color: #601324;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+
+.SPortal_header,
+.logo {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.name_wrapper {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+li {
+    color: white;
+    display: inline;
+    float: right;
+    padding: 8px;
+}
+
+.btn-light {
+    color: white;
+    background-color: #ccb38d;
+}
+
+.welcome {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    background-color: #601324;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.icons {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+}
+
+.icon-round-border {
+    border: 10px double #601324;
+    color: #7293ad;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 3px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.icon-round-border:hover {
+    color: #fff;
+    border: 10px double #fff;
+    background-color: #790404;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.register,
+.hold,
+.academics {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+
+.classes_wrapper {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #601324;
+    border-top: 10px solid #601324;
+}
+
+.warning_message i {
+    color: rgb(212, 209, 36);
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.Please tr td {
+    padding-right: 50px;
+    padding-left: 10px;
+    border-bottom: 2px solid #601324;
+    text-align: left;
+}
+
+.delete_form {
+    padding-top: 20px;
+}
+
+.form_wrapper {
+    padding-left: 20px;
+}
+
+tr th {
+    font-weight: bold;
+}
+
+tr th,
+tr td {
+    padding: 5px;
+}
+
+.info_holder th {
+    border: 5px solid white;
+}
+
+.info_holder td {
+    border: 5px solid white;
+}
+
+.c1 {
+    background: #a14a80;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.c2 {
+    background: #ac5f8e;
+    padding-right: 70px;
+}
+
+.c3 {
+    background: #b16594;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.c4 {
+    background: #be7fa6;
+    padding-right: 70px;
+}
+
+.c5 {
+    padding-right: 70px;
+    font-weight: bold;
+    background: #d194ba;
+}
+
+.c6 {
+    background: #ebb5d6;
+    padding-right: 70px;
+}
+
+.info_wrapper {
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #601324;
+}
+
+.info_holder {
+    margin: auto;
+}
+
+.info_view {
+    font-weight: bold;
+    background: #e780b0;
+}
+
+.major_requiremnets_wrapper {
+    width: 70%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.major_title {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    background-color: #ccb38d;
+    font-weight: bold;
+}
+
+.missing_courses {
+    background: #f504047a;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Logo {
+    width: 270px;
+    height: 50px;
+}
+
+.MainHeader {
+    background-color: #601324;
+    width: 100%;
+    padding: 20px;
+}
+
+.SPortal_header,
+.logo {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.logo {
+    height: 80px;
+}
+
+.name_wrapper {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+li {
+    color: white;
+    display: inline;
+    float: right;
+    padding: 8px;
+}
+
+.btn-light {
+    color: white;
+    background-color: #ccb38d;
+}
+
+.welcome {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #601324;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.icons {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+}
+
+.icon-round-border {
+    border: 10px double #601324;
+    color: #052aff;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 3px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.icon-round-border:hover {
+    color: #fff;
+    border: 10px double #fff;
+    background-color: #790404;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.register,
+.hold,
+.academics {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+
+.classes_wrapper {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #601324;
+    border-top: 10px solid #601324;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #f0f0f0, #601324);
+    font-family: sans-serif;
+    font-weight: 100;
+}
